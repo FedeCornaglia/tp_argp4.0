@@ -1,270 +1,253 @@
-
 body {
-    background-color: rgb(181, 181, 246);
+  background-color: rgb(181, 181, 246);
 }
 
 table {
-    position: relative;
-    width: 850px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+  position: relative;
+  width: 850px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 tr {
-    border: solid black 1px;
-    border-radius: 20px;
-
+  border: solid black 1px;
+  border-radius: 20px;
 }
 
 td {
-    border: solid black 1px;
-    padding: 10px;
-    border-radius: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+  border: solid black 1px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 thead {
-    background-color: rgb(150, 150, 247);
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    color: white;
-
-
+  background-color: rgb(150, 150, 247);
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  color: white;
 }
 
-
 tbody {
-    background-color: rgb(244, 250, 195);
-    font-family: Helvetica, sans-serif;
-    color: grey;
+  background-color: rgb(244, 250, 195);
+  font-family: Helvetica, sans-serif;
+  color: grey;
 }
 
 .boton_guardarEeditarBorrar {
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    font-family: cursive;
-    background-color: rgb(150, 150, 247);
-    border: solid rgb(150, 150, 247) 1 px;
-    border-radius: 10px;
-    cursor: pointer;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: cursive;
+  background-color: rgb(150, 150, 247);
+  border: solid rgb(150, 150, 247) 1 px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .boton_guardarEeditarBorrar:hover {
-    background-color: rgb(65, 65, 176);
+  background-color: rgb(65, 65, 176);
 }
 
 .boton_guardarEeditarBorrar:active {
-    background-color: rgb(20, 116, 130);
-    box-shadow: 0px 0px 3px 3px;
-    color: black;
+  background-color: rgb(20, 116, 130);
+  box-shadow: 0px 0px 3px 3px;
+  color: black;
 }
 
-
 #td_boton {
-    background-color: black;
-    border: solid rgb(215, 240, 126) 1px;
-    position: relative;
+  background-color: black;
+  border: solid rgb(215, 240, 126) 1px;
+  position: relative;
 }
 
 #td_check {
-    background-color: rgb(215, 215, 252);
-    position: relative;
-    padding: 10px opx 10px 0px;
-    accent-color: rgb(47, 194, 47);
+  background-color: rgb(215, 215, 252);
+  position: relative;
+  padding: 10px opx 10px 0px;
+  accent-color: rgb(47, 194, 47);
 }
 
-#input_realizada {font-family:  sans-serif;
-    position: absolute;
-    top: 2px;
-    bottom: 2px;
-    right: 10px;
-    cursor: pointer;
-    accent-color: rgb(47, 194, 47);
-
-
-
-
-
+#input_realizada {
+  font-family: sans-serif;
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  right: 10px;
+  cursor: pointer;
+  accent-color: rgb(47, 194, 47);
 }
 
 .label {
-    margin-left: 10px;
-    color: black;
-    cursor: pointer;
-
+  margin-left: 10px;
+  color: black;
+  cursor: pointer;
 }
 
-
 .boton_agregar {
-    position: relative;
-    margin-left: 15px;
-    margin-top: 0px;
-
+  position: relative;
+  margin-left: 15px;
+  margin-top: 0px;
 }
 
 .fond_botonAgregar {
-    background-image: linear-gradient(rgb(65, 65, 176), white);
-    margin: 0px 0px 0px 300px;
-    width: 850px;
-    padding-top: 15px;
-    padding-right: 20px;
-    border-radius: 10px 10px 0px 0px;
-    border-top: solid black 1px;
-    border-left: solid black 1px;
-    border-right: solid black 1px;
+  background-image: linear-gradient(rgb(65, 65, 176), white);
+  margin: 0px 0px 0px 300px;
+  width: 850px;
+  padding-top: 15px;
+  padding-right: 20px;
+  border-radius: 10px 10px 0px 0px;
+  border-top: solid black 1px;
+  border-left: solid black 1px;
+  border-right: solid black 1px;
 }
 
 .bot_agre {
-    background-color: rgb(150, 150, 247);
-    padding: 10px;
-    border-radius: 0px 10px 10px 0px;
-    cursor: pointer;
+  background-color: rgb(150, 150, 247);
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
 }
 
 .bot_agre:hover {
-    background-color: rgb(65, 65, 176);
+  background-color: rgb(65, 65, 176);
 }
 
 .bot_agre:active {
-    background-color: rgb(20, 116, 130);
-    box-shadow: 0px 0px 3px 3px;
-    color: bisque;
+  background-color: rgb(20, 116, 130);
+  box-shadow: 0px 0px 3px 3px;
+  color: bisque;
 }
 
 .input_agregarTitulo {
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px 0px 0px 10px;
-    border: solid black 1px;
-    width: 200px;
-    margin-left: 0px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  border: solid black 1px;
+  width: 200px;
+  margin-left: 0px;
 }
 
 .input_agregarDescripcion {
-    background-color: white;
-    padding: 10px;
-    width: 200px;
-    border: solid black 1px;
+  background-color: white;
+  padding: 10px;
+  width: 200px;
+  border: solid black 1px;
 }
 
 .ir_registro {
-    display: inline-block;
-    background-color: rgb(150, 150, 247);
-    border: solid black 1px;
-    border-radius: 10px;
-    padding: 5px 20px;
-    margin-left: 20px;
-    margin-top: 50px;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
+  display: inline-block;
+  background-color: rgb(150, 150, 247);
+  border: solid black 1px;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-left: 20px;
+  margin-top: 50px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .ir_registro:hover {
-    background-color: rgb(65, 65, 176);
+  background-color: rgb(65, 65, 176);
 }
 
 .ir_registro:active {
-    background-color: rgb(20, 116, 130);
-    box-shadow: 0px 0px 3px 3px;
-    color: bisque;
+  background-color: rgb(20, 116, 130);
+  box-shadow: 0px 0px 3px 3px;
+  color: bisque;
 }
 
-
-
 .irIniciar_Sesion {
-    display: inline-block;
-    background-color: rgb(150, 150, 247);
-    border: solid black 1px;
-    border-radius: 10px;
-    padding: 5px 20px;
-    margin-left: 20px;
-    margin-top: 5px;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
+  display: inline-block;
+  background-color: rgb(150, 150, 247);
+  border: solid black 1px;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .irIniciar_Sesion:hover {
-    background-color: rgb(65, 65, 176);
+  background-color: rgb(65, 65, 176);
 }
 
 .irIniciar_Sesion:active {
-    background-color: rgb(20, 116, 130);
-    box-shadow: 0px 0px 3px 3px;
-    color: bisque;
+  background-color: rgb(20, 116, 130);
+  box-shadow: 0px 0px 3px 3px;
+  color: bisque;
 }
 
-
 .div_tabla {
-    position: absolute;
-    background-color: white;
-    border-bottom: solid black 1px;
-    border-left: solid black 1px;
-    border-right: solid black 1px;
-    margin: 0px 145px 0px 300px;
-    border-radius: 0px 0px 10px 10px;
+  position: absolute;
+  background-color: white;
+  border-bottom: solid black 1px;
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  margin: 0px 145px 0px 300px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .td_descripcion {
-    color: black;
-    width: 570px;
+  color: black;
+  width: 570px;
 }
 
 .td_realizada {
-    width: 100px;
+  width: 100px;
 }
 
 .tachado {
-    text-decoration: line-through;
-    color: rgb(66, 66, 66);
+  text-decoration: line-through;
+  color: rgb(66, 66, 66);
 }
 
 .div_filtro {
-    position: absolute;
-    margin-top: -50px;
-    margin-left: 890px;
-    border: solid black 2px;
-    border-radius: 10px;
-    padding: 6px 3px;
-    background-color: rgb(150, 150, 247);
-    
-
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 890px;
+  border: solid black 2px;
+  border-radius: 10px;
+  padding: 6px 3px;
+  background-color: rgb(150, 150, 247);
 }
-.inputfiltrar{border-radius: 5px;
-width: 250px;}
+.inputfiltrar {
+  border-radius: 5px;
+  width: 250px;
+}
 
 .boton_ordenar {
-    
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    color: white;
-    text-align: center;
-    font-size: 10px;
-    font-family: cursive;
-    background-color: rgb(150, 150, 247);
-    border: solid rgb(150, 150, 247) 1 px;
-    border-radius: 10px;
-    cursor: pointer;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  font-family: cursive;
+  background-color: rgb(150, 150, 247);
+  border: solid rgb(150, 150, 247) 1 px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .boton_ordenar:hover {
-    background-color: rgb(65, 65, 176);
+  background-color: rgb(65, 65, 176);
 }
 
 .boton_ordenar:active {
-    background-color: rgb(20, 116, 130);
-    box-shadow: 0px 0px 3px 3px;
-    color: black;
+  background-color: rgb(20, 116, 130);
+  box-shadow: 0px 0px 3px 3px;
+  color: black;
 }
